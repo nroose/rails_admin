@@ -1,6 +1,4 @@
 # encoding: utf-8
-require File.expand_path('../lib/rails_admin/version', __FILE__)
-
 Gem::Specification.new do |gem|
   # If you add a dependency, please maintain alphabetical order
   gem.add_dependency 'bbenezech-nested_form', '~> 0.0.6'
@@ -38,5 +36,5 @@ Gem::Specification.new do |gem|
   gem.required_rubygems_version = Gem::Requirement.new('>= 1.3.6')
   gem.summary = %q{Admin for Rails}
   gem.test_files = Dir['spec/**/*']
-  gem.version = RailsAdmin::VERSION
+  gem.version = '2013.1.29'
 end
